@@ -1,7 +1,4 @@
 """
-init the python file
-Author: Hongtai Zhang & Shunyang Li 
-Date: 10/10/2022
 Description:
     Convert SQL to cypher
 """

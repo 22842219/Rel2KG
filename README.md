@@ -120,16 +120,3 @@ Note: If you would like to preprocess Spider dataset by yourself, please refer t
    ```
 
 
-## Citation
-
-If you find the resource in this repository helpful, please cite
-
-```
-https://arxiv.org/abs/2310.01080
-
-```
-
-## Contact
-
-If you are interested in our work, please feel free to contact Ziyu Zhao
-Email: ziyu.zhao@research.uwa.edu.au/zhaoziyu929@gmail.com

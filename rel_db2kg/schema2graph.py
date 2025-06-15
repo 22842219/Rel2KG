@@ -1,8 +1,3 @@
-'''
-Author: Ziyu Zhao
-Affiliation: UWA NLT-TLP GROUP
-'''
-
 import os, re, math
 from typing import Set
 from py2neo import Graph

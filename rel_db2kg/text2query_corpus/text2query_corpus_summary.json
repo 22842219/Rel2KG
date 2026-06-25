@@ -1,0 +1,20 @@
+{
+  "source": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/query_details.jsonl",
+  "output_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus",
+  "total_correct_examples": 6923,
+  "split_counts": {
+    "train_spider": 5359,
+    "train_others": 783,
+    "dev": 781
+  },
+  "database_count": 166,
+  "files": {
+    "all_jsonl": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_correct_corpus.jsonl",
+    "train_jsonl": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_train.jsonl",
+    "dev_jsonl": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_dev.jsonl",
+    "csv": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_correct_corpus.csv",
+    "config_csv": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_task_config.csv",
+    "config_json": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_task_config.json",
+    "config_tex": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_task_config.tex"
+  }
+}

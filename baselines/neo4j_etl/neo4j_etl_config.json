@@ -1,0 +1,17 @@
+{
+  "dbms_id": "cefc5406-3f65-4b38-9486-e0a0b543d341",
+  "dbms_path": "/Users/leamonzea/Library/Application Support/neo4j-desktop/Application/Data/dbmss/dbms-cefc5406-3f65-4b38-9486-e0a0b543d341",
+  "neo4j_uri": "bolt://127.0.0.1:7687",
+  "neo4j_user": "neo4j",
+  "neo4j_password": "neo4j-etl",
+  "target_database": "neo4j",
+  "selected_databases": [
+    "store_1",
+    "college_3",
+    "hospital_1",
+    "tracking_software_problems"
+  ],
+  "database_root": "/Users/leamonzea/Desktop/Rel2KG/baselines/neo4j_etl/raw_download/spider_data/database",
+  "output_json": "/Users/leamonzea/Desktop/Rel2KG/baselines/neo4j_etl/results/neo4j_etl_selected_summary.json",
+  "batch_size": 5000
+}

@@ -1,0 +1,75 @@
+{
+  "baseline": "Neo4j ETL",
+  "implementation": "sqlite_schema_to_neo4j_etl_baseline",
+  "input_source": "/Users/leamonzea/Desktop/Rel2KG/baselines/neo4j_etl/raw_download/spider_data/database",
+  "target_dbms_id": "cefc5406-3f65-4b38-9486-e0a0b543d341",
+  "target_dbms_path": "/Users/leamonzea/Library/Application Support/neo4j-desktop/Application/Data/dbmss/dbms-cefc5406-3f65-4b38-9486-e0a0b543d341",
+  "target_database": "neo4j",
+  "selected_databases": [
+    "store_1",
+    "college_3",
+    "hospital_1",
+    "tracking_software_problems"
+  ],
+  "summary": {
+    "database_count": 4,
+    "total_nodes": 5155,
+    "total_relationships": 23100,
+    "total_elapsed_seconds": 32.0995
+  },
+  "per_database": [
+    {
+      "db_id": "store_1",
+      "raw_tables": 11,
+      "raw_rows": 15607,
+      "node_tables": 9,
+      "relationship_tables": 2,
+      "nodes": 4652,
+      "relationships": 22289,
+      "labels": 10,
+      "relationship_types": 9,
+      "skipped_fk_rows": 1,
+      "skipped_link_rows": 0
+    },
+    {
+      "db_id": "college_3",
+      "raw_tables": 8,
+      "raw_rows": 490,
+      "node_tables": 5,
+      "relationship_tables": 3,
+      "nodes": 341,
+      "relationships": 569,
+      "labels": 6,
+      "relationship_types": 5,
+      "skipped_fk_rows": 0,
+      "skipped_link_rows": 0
+    },
+    {
+      "db_id": "hospital_1",
+      "raw_tables": 15,
+      "raw_rows": 132,
+      "node_tables": 11,
+      "relationship_tables": 4,
+      "nodes": 97,
+      "relationships": 137,
+      "labels": 12,
+      "relationship_types": 18,
+      "skipped_fk_rows": 4,
+      "skipped_link_rows": 0
+    },
+    {
+      "db_id": "tracking_software_problems",
+      "raw_tables": 6,
+      "raw_rows": 65,
+      "node_tables": 6,
+      "relationship_tables": 0,
+      "nodes": 65,
+      "relationships": 105,
+      "labels": 7,
+      "relationship_types": 6,
+      "skipped_fk_rows": 0,
+      "skipped_link_rows": 0
+    }
+  ],
+  "note": "This run does not read Rel2KG Cypher. It reads SQLite tables and FK metadata; exactly-two-FK linking tables are mapped to relationships."
+}

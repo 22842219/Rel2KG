@@ -1,0 +1,5 @@
+db_id,sqlite_path,raw_tables,raw_rows,graph_nodes,graph_relationships,graph_labels,graph_types
+store_1,/private/tmp/rel2kg_spider/prem-research-spider/database/store_1/store_1.sqlite,11,15607,6892,24529,10,10
+college_3,/private/tmp/rel2kg_spider/prem-research-spider/database/college_3/college_3.sqlite,8,490,417,855,6,7
+hospital_1,/private/tmp/rel2kg_spider/prem-research-spider/database/hospital_1/hospital_1.sqlite,15,132,100,146,12,20
+tracking_software_problems,/private/tmp/rel2kg_spider/prem-research-spider/database/tracking_software_problems/tracking_software_problems.sqlite,6,65,65,105,6,6

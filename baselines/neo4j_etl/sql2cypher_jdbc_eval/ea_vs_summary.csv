@@ -1,0 +1,9 @@
+method,db_id,total,sql_executed,translated,cypher_executed,correct,incorrect,sql_error,translation_error,cypher_error,valid_n,failure_n,execution_accuracy,valid_score
+raw_official,store_1,112,112,12,10,6,4,0,100,2,10,102,0.6,0.05357142857142857
+raw_official,college_3,74,74,64,54,18,36,0,10,10,54,20,0.3333333333333333,0.24324324324324323
+raw_official,hospital_1,100,100,84,78,6,72,0,16,6,78,22,0.07692307692307693,0.060000000000000005
+raw_official,tracking_software_problems,48,48,40,36,18,18,0,8,4,36,12,0.5,0.375
+official_plus_adapter,store_1,112,112,12,10,6,4,0,100,2,10,102,0.6,0.05357142857142857
+official_plus_adapter,college_3,74,74,64,54,20,34,0,10,10,54,20,0.37037037037037035,0.27027027027027023
+official_plus_adapter,hospital_1,100,100,84,78,26,52,0,16,6,78,22,0.3333333333333333,0.26
+official_plus_adapter,tracking_software_problems,48,48,40,36,18,18,0,8,4,36,12,0.5,0.375

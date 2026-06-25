@@ -1,0 +1,18 @@
+{
+  "prediction_file": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/qwen3-coder-plus/text2cypher_predictions.jsonl",
+  "neo4j_database": "rel2kg",
+  "quote_dotted_labels": true,
+  "total": 781,
+  "model_ok": 781,
+  "sql_executed": 781,
+  "cypher_executed": 684,
+  "correct": 85,
+  "incorrect": 599,
+  "sql_error": 0,
+  "cypher_error": 97,
+  "model_error": 0,
+  "execution_accuracy": 0.1088348271446863,
+  "executable_accuracy": 0.12426900584795321,
+  "cypher_executable_rate": 0.8758002560819462,
+  "details_file": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/qwen3-coder-plus/text2cypher_execution_details_quote_dotted_labels.jsonl"
+}

@@ -1,0 +1,21 @@
+{
+  "task": "text2cypher",
+  "provider": "Qwen",
+  "model": "qwen3-coder-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "api_key_env": "QWEN_API_KEY",
+  "corpus_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus",
+  "eval_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_dev.jsonl",
+  "output_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/qwen3-coder-plus",
+  "prediction_file": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/qwen3-coder-plus/text2cypher_predictions.jsonl",
+  "total_examples": 781,
+  "generated_examples": 781,
+  "status_counts": {
+    "ok": 781
+  },
+  "exact_match": 0,
+  "exact_match_rate_over_ok": 0.0,
+  "exact_match_rate_over_total": 0.0,
+  "max_few_shot": 3,
+  "temperature": 0.0
+}

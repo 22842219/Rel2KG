@@ -1,0 +1,16 @@
+\begin{table*}[htbp]
+\centering
+\small
+\caption{Task parameter configuration for text-to-SQL and text-to-Cypher generation.}
+\label{tab:text2query_task_config}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllp{0.30\textwidth}p{0.24\textwidth}}
+\toprule
+Provider & Model & API key & Base URL & Input data & Output directory \\
+\midrule
+Qwen & qwen3-coder-plus & \texttt{QWEN\_API\_KEY} & \texttt{https://dashscope.aliyuncs.com/compatible-mode/v1} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/text2query\_correct\_corpus.jsonl} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/model\_outputs/qwen3-coder-plus} \\
+DeepSeek & deepseek-chat & \texttt{DEEPSEEK\_API\_KEY} & \texttt{https://api.deepseek.com} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/text2query\_correct\_corpus.jsonl} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/model\_outputs/deepseek} \\
+OpenAI GPT & gpt-4.1 & \texttt{OPENAI\_API\_KEY} & \texttt{https://api.openai.com/v1} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/text2query\_correct\_corpus.jsonl} & \texttt{/Users/leamonzea/Desktop/Rel2KG/rel\_db2kg/text2query\_corpus/model\_outputs/gpt} \\
+\bottomrule
+\end{tabular}}
+\end{table*}

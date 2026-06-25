@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "provider": "Qwen",
+      "model": "qwen3-coder-plus",
+      "api_key_env": "QWEN_API_KEY",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "input_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_correct_corpus.jsonl",
+      "train_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_train.jsonl",
+      "eval_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_dev.jsonl",
+      "output_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/qwen3-coder-plus",
+      "tasks": "text2sql,text2cypher",
+      "input_field": "input_text",
+      "text2sql_target_field": "text2sql_target",
+      "text2cypher_target_field": "text2cypher_target"
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-chat",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "base_url": "https://api.deepseek.com",
+      "input_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_correct_corpus.jsonl",
+      "train_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_train.jsonl",
+      "eval_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_dev.jsonl",
+      "output_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/deepseek",
+      "tasks": "text2sql,text2cypher",
+      "input_field": "input_text",
+      "text2sql_target_field": "text2sql_target",
+      "text2cypher_target_field": "text2cypher_target"
+    },
+    {
+      "provider": "OpenAI GPT",
+      "model": "gpt-4.1",
+      "api_key_env": "OPENAI_API_KEY",
+      "base_url": "https://api.openai.com/v1",
+      "input_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_correct_corpus.jsonl",
+      "train_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_train.jsonl",
+      "eval_data": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/text2query_dev.jsonl",
+      "output_dir": "/Users/leamonzea/Desktop/Rel2KG/rel_db2kg/text2query_corpus/model_outputs/gpt",
+      "tasks": "text2sql,text2cypher",
+      "input_field": "input_text",
+      "text2sql_target_field": "text2sql_target",
+      "text2cypher_target_field": "text2cypher_target"
+    }
+  ]
+}

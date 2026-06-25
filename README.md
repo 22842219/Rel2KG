@@ -7,11 +7,9 @@ Rel2KG converts relational databases into a Neo4j property graph and translates 
 - `rel_db2kg/schema2graph.py`: builds Neo4j graph nodes and relationships from SQLite databases. The updated builder supports explicit Neo4j URI/user/password/database options, batched node/relationship writes, batched graph clearing, and configurable database discovery.
 - `rel_db2kg/sql2cypher.py`: translates parsed SQL into Cypher and includes a Spider train/dev execution evaluator that reports execution accuracy and valid score.
 - `rel_db2kg/build_text2query_corpus.py`: creates Text-to-Cypher train/dev corpora from correct SQL-to-Cypher execution results.
-- `rel_db2kg/run_text2cypher_qwen_experiment.py`: runs an OpenAI-compatible Qwen Text-to-Cypher generation experiment.
-- `rel_db2kg/evaluate_text2cypher_predictions.py`: evaluates generated Cypher predictions by executing them against Neo4j and comparing with SQLite SQL results.
+<!-- - `rel_db2kg/run_text2cypher_qwen_experiment.py`: runs an OpenAI-compatible Qwen Text-to-Cypher generation experiment.
+- `rel_db2kg/evaluate_text2cypher_predictions.py`: evaluates generated Cypher predictions by executing them against Neo4j and comparing with SQLite SQL results. -->
 - `rel_db2kg/py_compat.py`: applies Python compatibility patches needed by legacy parser dependencies on newer Python versions.
-
-Legacy MySQL/PostgreSQL conversion and UNSW parser files have been removed from this working tree. Use the Spider/SQLite and Neo4j workflows below.
 
 ## Requirements
 
